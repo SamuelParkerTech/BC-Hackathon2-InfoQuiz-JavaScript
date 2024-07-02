@@ -44,7 +44,7 @@ Colour Schemes:
 #0AFFCE\
 #FFFFE8\
 #DDA448\
-#F25083\
+#F25083
 
 Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?
 

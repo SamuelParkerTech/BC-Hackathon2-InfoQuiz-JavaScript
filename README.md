@@ -17,7 +17,7 @@
 
 **Aeryx, Tanika, Samuel, Hackathon 2: JavaScript Quiz. July 2024**
 
-**Team Name: Hack Titans**
+**Team Name: Code Titans**
 
 Designing a fully interactive quiz website using HTML, CSS and JavaScript.
 

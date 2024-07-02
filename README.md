@@ -41,7 +41,7 @@ Answer cards are created via Bootstrap cards (in future design we would have the
 
 Colour Schemes:
 
-Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?/
+Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?
 
 ## Future Features
 Interactive/animations for the results answers - cards transition/flip around. 
@@ -64,7 +64,7 @@ Tanika
 Samuel Parker
 
 ## Content Credit
-Balsamiq for Wireframes/
+Balsamiq for Wireframes\
 Canva for the Answer Images (A,B,C,D)
 GitHub for code management
 Gitpod for coding

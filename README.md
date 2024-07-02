@@ -2,7 +2,7 @@
 
 ## Contents
 - [About](#about)
-- [Project Board]#Project-Board
+- [Project Board](#Project-Board)
 - [Live Repo](#Live-Repo)
 - [Wireframes](#Wireframes)
 - [Features](#Features)

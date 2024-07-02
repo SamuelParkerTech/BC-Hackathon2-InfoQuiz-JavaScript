@@ -25,7 +25,7 @@ Designing a fully interactive quiz website using HTML, CSS and JavaScript.
 Github Project Board: 
 
 ## Live Repo
-Deployed early so we can check it as we work: 
+Deployed early so we can check it as we work: https://subjugatorofcss.github.io/InfoQuest/
 
 ## Wireframes 
 

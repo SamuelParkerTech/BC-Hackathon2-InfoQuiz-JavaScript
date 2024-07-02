@@ -40,6 +40,11 @@ Design elements:
 Answer cards are created via Bootstrap cards (in future design we would have these flip over once selected with the result of the answers/correct/incorrect. Instead currently we have a pop up created. A score is added if the correct answer is provided and you receive a bad luck message if you are wrong. 
 
 Colour Schemes:
+#3F88C5
+#0AFFCE
+#FFFFE8
+#DDA448
+#F25083
 
 Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?
 

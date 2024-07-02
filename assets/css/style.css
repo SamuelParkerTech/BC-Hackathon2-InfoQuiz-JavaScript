@@ -1,9 +1,39 @@
 /* CSS Style Page */
 
-/* Current classes need styling */
+body {
+    background-color: #ffffe8; 
+}
 
-.questionclass
-.score-area
+/* Headings */
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* Question and Points Section */
+.questionclass {
+    text-align: left;
+    font-size: 2rem;
+}
+.score-area {
+    text-align: right;
+}
 .scores
+
+/* Answer Cards Section */
 .card-body
 .card-text
+
+
+/* Media Queries */
+
+/* Tablet and smaller */
+.card-body {
+
+}

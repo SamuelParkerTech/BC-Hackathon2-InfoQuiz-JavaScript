@@ -16,9 +16,9 @@ Designing a fully interactive quiz website using HTML, CSS and JavaScript.
 
 ## Wireframes 
 
-Reponsive Wireframes 
+Reponsive Wireframes - Website design skeleton to be responsive on all sites.
 
-
+https://github.com/SubjugatorofCSS/InfoQuest/blob/main/Media/Basic%20layout%20(responsive).png
 
 ## Insert Section 2
 

@@ -41,7 +41,7 @@ Answer cards are created via Bootstrap cards (in future design we would have the
 
 Colour Schemes:
 
-Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?\
+Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?
 
 ## Future Features
 Interactive/animations for the results answers - cards transition/flip around. 
@@ -50,25 +50,25 @@ Interactive/animations for the results answers - cards transition/flip around.
 JavaScript testing - Correct Answer =/= correct/incorrect - does this work?\
 Is the score calculated correctly?\
 Are there any page errors?\
-Is it responsive on all pages? \
+Is it responsive on all pages? 
 
 ## Validator Testing
 HTML - \
 CSS - \
-No errors were found when passing through the official (Jigsaw) validator\
+No errors were found when passing through the official (Jigsaw) validator
 
 ## Credits
 Authors of the Project\
 Aeryzx Rose - Project Lead\
 Tanika \
-Samuel Parker\
+Samuel Parker
 
 ## Content Credit
 Balsamiq for Wireframes\
 Canva for the Answer Images (A,B,C,D)\
 GitHub for code management\
 Gitpod for coding\
-FontAwesome\
+FontAwesome
 
 
 ## Further Thoughts

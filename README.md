@@ -3,7 +3,7 @@
 ## Contents
 - [About](#about)
 - [Insert Section 1](#Insert-Section-1)
-- [Wireframes] (#Wireframes)
+- [Wireframes](#Wireframes)
 - [Insert Section 2](#Insert-Section-2)
 - [Insert Section 3](#Insert-Section-3)
 

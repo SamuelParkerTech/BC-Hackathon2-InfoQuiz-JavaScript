@@ -60,7 +60,7 @@ No errors were found when passing through the official (Jigsaw) validator
 ## Credits
 Authors of the Project\
 Aeryzx Rose - Project Lead\
-Tanika \
+Tanika Irwin\
 Samuel Parker
 
 ## Content Credit
@@ -69,6 +69,8 @@ Canva for the Answer Images (A,B,C,D)\
 GitHub for code management\
 Gitpod for coding\
 FontAwesome
+BootStrap Framework
+API - JSON
 
 
 ## Further Thoughts

@@ -1,9 +1,43 @@
 /* CSS Style Page */
 
+body {
+    min-height: 100vh;
+    color: #3a3a3a;
+    
+}
+
+/* --------- Heading */
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+h3 {
+    text-align: center;
+    font-size: smaller;
+}
+
+
 /* Current classes need styling */
 
-.questionclass
-.score-area
+.questionclass {
+    text-align: left;
+}
+.score-area {
+    text-align: right;
+}
 .scores
 .card-body
 .card-text
+
+
+/* Media Queries */
+
+/* Tablet and smaller */
+.card-body {
+
+}

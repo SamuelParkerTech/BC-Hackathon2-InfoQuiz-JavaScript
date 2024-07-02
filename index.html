@@ -12,26 +12,28 @@
 </head>
 
 <body>
-  <!-- added a container to main to evenly organise cards and other elements across the screen -->
-  <main class="container">
+  <!-- added a container to evenly organise cards and other elements across the screen -->
+  <main class="container"> 
+
     <!-- Heading -->
     <h1>InfoQuest!</h1>
 
     <!-- Welcome message -->
-    <h3>Welcome to the InfoQuest Game!</h3>
+    <h2>Welcome to the InfoQuest Game!</h3>
 
-      <!-- Automated question and Points score -->
-      <div class="container col-8-4">
-        <div class="">
-          <h2 id="question" class="questionclass span-8">Question goes here</h2>
-        </div>
-        <div class="score-area span-4">
-          <p class="scores">Points <span id="score">0</span></p>
-        </div>
-      </div>
+    <!-- Automated question and Points score section -->
+  <div class="container" class="col-8-4">
+    <div class="col-8 h3">
+      <h2 id="question" class="questionclass">Question goes here</h2>
+    </div>
+    <div class="score-area" class="col-4">
+      <p class="scores">Points <span id="score">0</span></p>
+    </div>
+  </div>
 
-      <!-- Answer Cards-->
-      <div class="row justify-content-center mt-3 mb-3">
+    <!-- Answer Cards section-->
+    <div class="row justify-content-center mt-3 mb-3">
+      <div class="col-md-3 col-8" id="answerA">
         <!-- First Answer card goes here. Links need to reroute for JavaScript -->
         <div class="col-md-3 col-6" id="answerA">
           <a href="https://www.google.co.uk" class="card-link">
@@ -59,7 +61,8 @@
             </div>
           </a>
         </div>
-
+          
+      <div class="col-md-3 col-8" id="answerC">
         <!-- Third Answer card goes here. Links need to reroute for JavaScript -->
         <div class="col-md-3 col-6" id="answerC">
           <a href="https://www.google.co.uk" class="card-link">
@@ -73,7 +76,9 @@
             </div>
           </a>
         </div>
-
+     </div>
+        
+      <div class="col-md-3 col-8" id="answerD">
         <!-- Fourth Answer card goes here. Links need to reroute for JavaScript -->
         <div class="col-md-3 col-6" id="answerD">
           <a href="https://www.google.co.uk" class="card-link">
@@ -88,6 +93,7 @@
           </a>
         </div>
       </div>
+
       <!-- Correct Answer displays here IF correct-->
       <p class="alert alert-success">Well Done!</p>
       <!-- Incorrect Answer alert, states correct answer-->
@@ -98,6 +104,7 @@
         <button class="btn btn-primary" type="submit">Next</button>
       </div>
   </main>
+      
   <!-- JS Link -->
   <script src="assets/js/script.js"></script>
   <!-- BootStrap JS link -->

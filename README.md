@@ -37,7 +37,7 @@ Reponsive Wireframes - Website design skeleton to be responsive on all sites.
 
 Main site page is the key page, there should be any other pages as all navigation should be done through the game. The page changes slightly with each question. \
 Design elements:
-Answer cards are created via Bootstrap cards (in future design we would have these flip over once selected with the result of the answers/correct/incorrect. Instead currently we have a pop up created. A score is added if the correct answer is provided and you receive a bad luck message if you are wrong. \
+Answer cards are created via Bootstrap cards (in future design we would have these flip over once selected with the result of the answers/correct/incorrect. Instead currently we have a pop up created. A score is added if the correct answer is provided and you receive a bad luck message if you are wrong. 
 
 Colour Schemes:
 

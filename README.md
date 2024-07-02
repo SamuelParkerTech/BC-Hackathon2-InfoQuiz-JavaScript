@@ -1,4 +1,8 @@
-# InfoQuest
+# Info Quest
+
+## Wireframes 
+
+![Responsive Wireframes](https://github.com/SubjugatorofCSS-InfoQuest/media/Info-Quiz-Wireframes.bmpr)
 
 ## Contents
 - [About](#about)
@@ -15,3 +19,4 @@
 ## Insert Section 3
 
 ### 
+

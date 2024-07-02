@@ -13,8 +13,8 @@
 
 ## Wireframes 
 
-Reponsive Wireframes 
-
+Reponsive Wireframes - Website designed to be responsive all devices. Skeleton rough layout. 
+![image](https://github.com/SubjugatorofCSS/InfoQuest/blob/main/Media/Basic%20layout%20(responsive).png)
 
 ## Insert Section 2
 

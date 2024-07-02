@@ -68,9 +68,9 @@ Balsamiq for Wireframes\
 Canva for the Answer Images (A,B,C,D)\
 GitHub for code management\
 Gitpod for coding\
-FontAwesome
-BootStrap Framework
-API - JSON
+FontAwesome\
+BootStrap Framework\
+API - JSON\
 [Am I Responsive?](https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev)
 
 

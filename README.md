@@ -13,11 +13,10 @@
 
 ## Wireframes 
 
-![Responsive Wireframes](Media/Info Quiz Wireframes.bmpr)
+##[Responsive Wireframes](Media/Info Quiz Wireframes.bmpr)
 
 ## Insert Section 2
 
 ## Insert Section 3
 
 ### 
-

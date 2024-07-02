@@ -13,7 +13,8 @@
 
 ## Wireframes 
 
-##[Responsive Wireframes](Media/Info Quiz Wireframes.bmpr)
+Reponsive Wireframes 
+
 
 ## Insert Section 2
 

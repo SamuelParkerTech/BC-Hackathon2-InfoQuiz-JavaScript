@@ -12,15 +12,25 @@
 </head>
 
 <body>
-  <main>
+  <!-- added a container to main to evenly organise cards and other elements across the screen -->
+  <main class="container"> 
+    <!-- Heading -->
     <h1>InfoQuest!</h1>
 
-    <!-- This is a single line comment -->
-    <h2 id="question" class="questionclass">Question goes here</h2>
-    <div class="score-area">
+    <!-- Welcome message -->
+    <h2>Welcome to the InfoQuest Game!</h3>
+
+    <!-- Automated question and Points score -->
+  <div class="container" class="col-8-4">
+    <div class="">
+      <h2 id="question" class="questionclass" class="span-8">Question goes here</h2>
+    </div>
+    <div class="score-area" class="span-4">
       <p class="scores">Points <span id="score">0</span></p>
     </div>
-    <!-- Answer Cards - Need to add IDs for JS -->
+  </div>
+
+    <!-- Answer Cards-->
     <div class="row justify-content-center mt-3 mb-3">
       <div class="col-md-3 col-8" id="answerA">
         <!-- First Answer card goes here. Links need to reroute for JavaScript -->
@@ -82,10 +92,13 @@
       </div>
     </div>
 
-      <p>Well Done!</p>
-      <p>The correct answer was:</p>
-    <button type="submit">Restart</button>
-    <button type="submit">Next</button>
+      <p class="alert alert-success">Well Done!</p>
+      <p class="alert alert-danger">The correct answer was:</p>
+
+    <div class="buttons">  
+      <button class="btn btn-secondary" type="submit">Restart</button>
+      <button class="btn btn-primary" type="submit">Next</button>
+    </div>
   </main>
   <!-- JS Link -->
   <script src="assets/js/script.js"></script>

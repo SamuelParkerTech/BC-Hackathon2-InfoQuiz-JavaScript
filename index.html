@@ -13,92 +13,90 @@
 
 <body>
   <!-- added a container to main to evenly organise cards and other elements across the screen -->
-  <main class="container"> 
+  <main class="container">
     <!-- Heading -->
     <h1>InfoQuest!</h1>
 
     <!-- Welcome message -->
     <h2>Welcome to the InfoQuest Game!</h3>
 
-    <!-- Automated question and Points score -->
-  <div class="container" class="col-8-4">
-    <div class="">
-      <h2 id="question" class="questionclass" class="span-8">Question goes here</h2>
-    </div>
-    <div class="score-area" class="span-4">
-      <p class="scores">Points <span id="score">0</span></p>
-    </div>
-  </div>
+      <!-- Automated question and Points score -->
+      <div class="container" class="col-8-4">
+        <div class="">
+          <h2 id="question" class="questionclass" class="span-8">Question goes here</h2>
+        </div>
+        <div class="score-area" class="span-4">
+          <p class="scores">Points <span id="score">0</span></p>
+        </div>
+      </div>
 
-    <!-- Answer Cards-->
-    <div class="row justify-content-center mt-3 mb-3">
-      <div class="col-md-3 col-8" id="answerA">
+      <!-- Answer Cards-->
+      <div class="row justify-content-center mt-3 mb-3">
         <!-- First Answer card goes here. Links need to reroute for JavaScript -->
-        <a href="https://www.google.co.uk" class="card-link">
-          <div class="card border-1">
-            <img src="assets/images/A.png" class="card-img-top" alt="Answer A">
-            <div class="card-body">
-              <p class="card-text">
-                Answer: A is for Awesome
-              </p>
+        <div class="col-md-3 col-8" id="answerA">
+          <a href="https://www.google.co.uk" class="card-link">
+            <div class="card border-1">
+              <img src="assets/images/A.png" class="card-img-top" alt="Answer A">
+              <div class="card-body">
+                <p class="card-text">
+                  Answer: A is for Awesome
+                </p>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
 
-      <div class="col-md-3 col-8" id="answerB">
         <!-- Second Answer card goes here. Links need to reroute for JavaScript -->
-        <a href="https://www.google.co.uk" class="card-link">
-          <div class="card border-1">
-            <img src="assets/images/B.png" class="card-img-top" alt="Answer B">
-            <div class="card-body">
-              <p class="card-text">
-                Answer: B is for Brilliant
-              </p>
+        <div class="col-md-3 col-8" id="answerB">
+          <a href="https://www.google.co.uk" class="card-link">
+            <div class="card border-1">
+              <img src="assets/images/B.png" class="card-img-top" alt="Answer B">
+              <div class="card-body">
+                <p class="card-text">
+                  Answer: B is for Brilliant
+                </p>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
-
-
-      <div class="col-md-3 col-8" id="answerC">
+          </a>
+        </div>
 
         <!-- Third Answer card goes here. Links need to reroute for JavaScript -->
-        <a href="https://www.google.co.uk" class="card-link">
-          <div class="card border-1">
-            <img src="assets/images/C.png" class="card-img-top" alt="Answer C">
-            <div class="card-body">
-              <p class="card-text">
-                Answer: C is for Cool
-              </p>
+        <div class="col-md-3 col-8" id="answerC">
+          <a href="https://www.google.co.uk" class="card-link">
+            <div class="card border-1">
+              <img src="assets/images/C.png" class="card-img-top" alt="Answer C">
+              <div class="card-body">
+                <p class="card-text">
+                  Answer: C is for Cool
+                </p>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
 
-
-      <div class="col-md-3 col-8" id="answerD">
         <!-- Fourth Answer card goes here. Links need to reroute for JavaScript -->
-        <a href="https://www.google.co.uk" class="card-link">
-          <div class="card border-1">
-            <img src="assets/images/D.png" class="card-img-top" alt="Answer D">
-            <div class="card-body">
-              <p class="card-text">
-                Answer: D is for Dynamic
-              </p>
+        <div class="col-md-3 col-8" id="answerD">
+          <a href="https://www.google.co.uk" class="card-link">
+            <div class="card border-1">
+              <img src="assets/images/D.png" class="card-img-top" alt="Answer D">
+              <div class="card-body">
+                <p class="card-text">
+                  Answer: D is for Dynamic
+                </p>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
-    </div>
-
+      <!-- Correct Answer displays here IF correct-->
       <p class="alert alert-success">Well Done!</p>
+      <!-- Incorrect Answer alert, states correct answer-->
       <p class="alert alert-danger">The correct answer was:</p>
 
-    <div class="buttons">  
-      <button class="btn btn-secondary" type="submit">Restart</button>
-      <button class="btn btn-primary" type="submit">Next</button>
-    </div>
+      <div class="buttons">
+        <button class="btn btn-secondary" type="submit">Restart</button>
+        <button class="btn btn-primary" type="submit">Next</button>
+      </div>
   </main>
   <!-- JS Link -->
   <script src="assets/js/script.js"></script>
@@ -107,8 +105,8 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <!--Font Awesome Link-->
-    <script src="https://kit.fontawesome.com/6d13c7becf.js" crossorigin="anonymous"></script>
+  <!--Font Awesome Link-->
+  <script src="https://kit.fontawesome.com/6d13c7becf.js" crossorigin="anonymous"></script>
 
 </body>
 

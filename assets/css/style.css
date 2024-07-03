@@ -1,6 +1,7 @@
-/* CSS Style Page */
 
-body {
+ /* class to body element to override initial styling from html/bootstrap */
+.body {
+    margin: 2rem;
     background-color: #ffffe8; 
 }
 
@@ -9,17 +10,24 @@ body {
 h1 {
     text-align: center;
     font-size: 2.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2 {
     text-align: center;
     font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+h3 {
+    text-align: center;
+    text-size-adjust: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 /* Question and Points Section */
 .questionclass {
     text-align: left;
     font-size: 2rem;
+    /* background-color: #3f88c5; */
 }
 .score-area {
     text-align: right;
@@ -34,6 +42,3 @@ h2 {
 /* Media Queries */
 
 /* Tablet and smaller */
-.card-body {
-
-}

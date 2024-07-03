@@ -25,7 +25,7 @@ h3 {
 /* Question and Points Section */
 .questionclass {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.8rem;
     /* background-color: #3f88c5; */
 }
 .score-area {
@@ -37,7 +37,9 @@ h3 {
 }
 
 /* Answer Cards Section */
-.card-body
+.card-body {
+    
+} 
 .card-text
 
 /* Game Navigation Section */
@@ -46,5 +48,9 @@ h3 {
 }*/
 
 /* Media Queries */
-
-/* Tablet and smaller */
+/* for screens that are 768px wide or more (tablet and desktop) */
+/* @media screen and (min-width: 768px) {
+    .questionclass {
+        font-size: 2rem;
+    }
+} */

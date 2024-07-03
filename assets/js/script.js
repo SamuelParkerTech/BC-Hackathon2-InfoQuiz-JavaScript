@@ -1,7 +1,7 @@
 // Event listeners for buttons that restarts the quiz, submits your answer and goes to next question
 document.getElementById("restart-quiz").addEventListener("click", e => restartsQuiz(e));
 document.getElementById("submit-answer").addEventListener("click", e => submitsAnswer(e));
-document.getElementById("next-question").addEventListener("click", e => getNextQuestion(e));
+document.getElementById("next-question").addEventListener("click", showNext);
 
 // creating an Array of Questions
 
@@ -101,3 +101,28 @@ document.getElementById("answerD").innerHTML = `<div class="card border-1">
 
 // Initialize quiz
 displayQuestion();
+
+// Results function
+function showResults() {
+    const answerList = questions.querySelectorAll('answer');
+    currentQuestion.forEach( (currentQuestion, currentQuestionIndex) => {
+        const answerList = answerList[currentQuestion];
+        const selector = `input[name=question${currentQuestionIndex}]:checked`;
+        const userAnswer = (answerList.querySelector(selector) || {}).value;
+    })
+}
+
+// function to submit and check user answer
+const submitsAnswer = document.getElementById("submit-answer");
+submitsAnswer.addEventListener('click', showResults);
+
+
+function checkAnswer(userAnswer) {
+    const 
+    if(userAnswer === questions[currentQuestion].answer) {
+        alert ("Correct!");
+        score = score + 1;
+    } else {
+        alert ("Sorry, that's wrong");
+    }
+}

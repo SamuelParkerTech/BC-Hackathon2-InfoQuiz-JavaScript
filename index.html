@@ -95,10 +95,15 @@
     <!-- Incorrect Answer alert, states correct answer-->
     <p class="alert alert-danger">The correct answer was:</p>
 
-    <!-- flex and grid properties added using bootstrap here to center buttons -->
-    <div class="nav-buttons d-flex justify-content-center d-grid gap-2">
-      <button class="btn btn-secondary" type="submit">Restart</button>
-      <button class="btn btn-primary" type="submit">Next</button>
+    <!-- flex and grid properties added using bootstrap here to justify buttons -->
+    <div class="row col-12">
+      <div class="nav-buttons d-flex justify-content-start d-grid gap-2 col-8">
+        <button class="btn btn-secondary" type="submit" id="restart-quiz">Restart</button>
+        <button class="btn btn-success" type="submit" id="submit-answer">Submit</button>
+      </div>
+      <div  class="nav-buttons d-flex justify-content-end d-grid gap-2 col-4">
+        <button class="btn btn-primary" type="submit" id="next-question">Next</button>
+      </div>
     </div>
 
   </main>

@@ -26,7 +26,7 @@
       <!-- Automated question and Points score -->
     <div class="container-fluid row">
       <div class="col-8">
-          <h2 id="question" class="questionclass col-md-8">Question goes here</h2>
+          <h2 id="questions" class="questionclass col-md-8">Question goes here</h2>
       </div>
           <!-- Included scores into same div as question to style them side by side using col (evens out the titles so they arent sat on top of eachother) -->
       <div class="score-area col-4">
@@ -37,12 +37,12 @@
     <!-- Answer Cards section-->
     <div class="row justify-content-center mt-3 mb-3">
         <!-- First Answer card goes here. Links need to reroute for JavaScript -->
-        <div class="col-md-3 col-6 " id="answerA">
+        <div class="col-md-3 col-6 ">
           <a href="https://www.google.co.uk" class="card-link">
             <div class="card border-1">
               <img src="assets/images/A.png" class="card-img-top" alt="Answer A">
               <div class="card-body">
-                <p class="card-text">
+                <p class="card-text" id="answerA">
                   Answer: A is for Awesome
                 </p>
               </div>

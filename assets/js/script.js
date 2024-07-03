@@ -72,10 +72,30 @@ let score = 0;
 function displayQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
     document.getElementById("question").innerText = currentQuestion.question;
-    document.getElementById("answerA").innerText = currentQuestion.options[0];
-    document.getElementById("answerB").innerText = currentQuestion.options[1];
-    document.getElementById("answerC").innerText = currentQuestion.options[2];
-    document.getElementById("answerD").innerText = currentQuestion.options[3];
+    document.getElementById("answerA").innerHTML = `<div class="card border-1">
+    <img src="assets/images/A.png" class="card-img-top" alt="Answer A">
+    <div class="card-body">
+        <p class="card-text">${currentQuestion.options[0]}</p>
+    </div>
+</div>`;
+document.getElementById("answerB").innerHTML = `<div class="card border-1">
+<img src="assets/images/B.png" class="card-img-top" alt="Answer B">
+<div class="card-body">
+    <p class="card-text">${currentQuestion.options[1]}</p>
+</div>
+</div>`;
+document.getElementById("answerC").innerHTML = `<div class="card border-1">
+<img src="assets/images/C.png" class="card-img-top" alt="Answer C">
+<div class="card-body">
+    <p class="card-text">${currentQuestion.options[2]}</p>
+</div>
+</div>`;
+document.getElementById("answerD").innerHTML = `<div class="card border-1">
+<img src="assets/images/D.png" class="card-img-top" alt="Answer D">
+<div class="card-body">
+    <p class="card-text">${currentQuestion.options[3]}</p>
+</div>
+</div>`;
 }
 
 

@@ -14,7 +14,7 @@ const questions = [
 
     {
         question: 'Who wrote the play "Romeo and Juliet?',
-    options: ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"],
+        options: ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"],
         answer: "Willian Shakespeare"
     },
 

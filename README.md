@@ -49,7 +49,8 @@ Colour Schemes:
 Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?
 
 ## Future Features
-Interactive/animations for the results answers - cards transition/flip around. 
+Interactive/animations for the results answers - cards transition/flip around. \
+API Instead of manually created questions. We started with an API but we could not quite get it to work in the timeframe, so we made a decision to simplify to get a MVP out in the timeframe. 
 
 ## Testing
 JavaScript testing - Correct Answer =/= correct/incorrect - does this work?\

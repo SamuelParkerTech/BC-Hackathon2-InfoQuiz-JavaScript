@@ -6,7 +6,6 @@
 }
 
 /* Headings */
-
 h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -32,7 +31,10 @@ h3 {
 .score-area {
     text-align: right;
 }
-.scores
+.scores {
+    /* aligns the text "points" with the question */
+    margin: 16px;
+}
 
 /* Answer Cards Section */
 .card-body

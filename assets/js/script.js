@@ -1,6 +1,6 @@
 // Event listeners for buttons that restarts the quiz, submits your answer and goes to next question
 document.getElementById("restart-quiz").addEventListener("click", e => restartsQuiz(e));
-document.getElementById("submit-answer").addEventListener("click", e => submitsAnswer(e));
+document.getElementById("submit-answer").addEventListener("click", e => submitAnswer(e));
 document.getElementById("next-question").addEventListener("click", e => showNext(e));
 
 // creating an Array of Questions
@@ -121,14 +121,23 @@ function restartsQuiz ()
     displayQuestion();
 }
 
+/* // Event listeners for each answer ID
+document.getElementById("answerA").addEventListener("click", e => selectAnswer(e));
+document.getElementById("answerB").addEventListener("click", e => selectAnswer(e));
+document.getElementById("answerC").addEventListener("click", e => selectAnswer(e));
+document.getElementById("answerD").addEventListener("click", e => selectAnswer(e));
+
+*/
 
 
-
-function selectAnswer(element, answer) {
+function selectAnswer(answer) {
     selectedAnswer = answer;
     console.log('Selected answer:', selectedAnswer);
-}
 
+    // code to highlight selected answer
+
+}
+    
 function submitAnswer() {
     if (!selectedAnswer) {
         alert('Please select an answer!');

@@ -1,7 +1,7 @@
 // Event listeners for buttons that restarts the quiz, submits your answer and goes to next question
 document.getElementById("restart-quiz").addEventListener("click", e => restartsQuiz(e));
 document.getElementById("submit-answer").addEventListener("click", e => submitsAnswer(e));
-document.getElementById("next-question").addEventListener("click", showNext);
+document.getElementById("next-question").addEventListener("click", e => showNext(e));
 
 // creating an Array of Questions
 
@@ -18,47 +18,47 @@ const questions = [
         answer: "Willian Shakespeare"
     },
 
- {
+    {
         question: "Which planet is known as the Red Planet?",
         options: ["Venus", "Mars", "Jupiter", "Saturn"],
         answer: "Mars"
     },
 
-{
+    {
         question: "What is the largest ocean on Earth?",
         options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
         answer: "Pacific Ocean"
     },
- {
+    {
         question: "In which year did the Titanic sink?",
         options: ["1912", "1905", "1920", "1898"],
         answer: "1912"
     },
- {
+    {
         question: "Who painted the Mona Lisa?",
         options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
         answer: "Leonardo da Vinci"
     },
 
-{
+    {
         question: "Which element has the chemical symbol 'O'?",
         options: ["Gold", "Silver", "Oxygen", "Hydrogen"],
         answer: "Oxygen"
     },
 
- {
+    {
         question: "What is the smallest country in the world?",
         options: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
         answer: "Vatican City"
     },
 
- {
+    {
         question: "Who is the author of the Harry Potter series?",
         options: ["J.K. Rowling", "J.R.R. Tolkien", "George R.R. Martin", "C.S. Lewis"],
         answer: "J.K. Rowling"
     },
 
- {
+    {
         question: "What is the boiling point of water at standard atmospheric pressure?",
         options: ["90°C", "100°C", "110°C", "120°C"],
         answer: "100°C"
@@ -78,51 +78,59 @@ function displayQuestion() {
         <p class="card-text">${currentQuestion.options[0]}</p>
     </div>
 </div>`;
-document.getElementById("answerB").innerHTML = `<div class="card border-1">
+    document.getElementById("answerB").innerHTML = `<div class="card border-1">
 <img src="assets/images/B.png" class="card-img-top" alt="Answer B">
 <div class="card-body">
     <p class="card-text">${currentQuestion.options[1]}</p>
 </div>
 </div>`;
-document.getElementById("answerC").innerHTML = `<div class="card border-1">
+    document.getElementById("answerC").innerHTML = `<div class="card border-1">
 <img src="assets/images/C.png" class="card-img-top" alt="Answer C">
 <div class="card-body">
     <p class="card-text">${currentQuestion.options[2]}</p>
 </div>
 </div>`;
-document.getElementById("answerD").innerHTML = `<div class="card border-1">
+    document.getElementById("answerD").innerHTML = `<div class="card border-1">
 <img src="assets/images/D.png" class="card-img-top" alt="Answer D">
 <div class="card-body">
     <p class="card-text">${currentQuestion.options[3]}</p>
 </div>
 </div>`;
+
+    // adds +1 to the question index so next question loads. 
+    currentQuestionIndex++;
 }
 
 
 // Initialize quiz
 displayQuestion();
 
-// Results function
-function showResults() {
-    const answerList = questions.querySelectorAll('answer');
-    currentQuestion.forEach( (currentQuestion, currentQuestionIndex) => {
-        const answerList = answerList[currentQuestion];
-        const selector = `input[name=question${currentQuestionIndex}]:checked`;
-        const userAnswer = (answerList.querySelector(selector) || {}).value;
-    })
-}
-
-// function to submit and check user answer
-const submitsAnswer = document.getElementById("submit-answer");
-submitsAnswer.addEventListener('click', showResults);
-
-
-function checkAnswer(userAnswer) {
-    const 
-    if(userAnswer === questions[currentQuestion].answer) {
-        alert ("Correct!");
-        score = score + 1;
+// Function to show the next question
+function showNext() {
+    if (currentQuestionIndex < questions.length) {
+        displayQuestion();
     } else {
-        alert ("Sorry, that's wrong");
+        alert("Quiz complete!");
     }
 }
+
+function selectAnswer(element, answer) {
+    selectedAnswer = answer;
+    console.log('Selected answer:', selectedAnswer);
+}
+
+function submitAnswer() {
+    if (!selectedAnswer) {
+        alert('Please select an answer!');
+        return;
+    }
+
+    const correctAnswer = questions[currentQuestionIndex].answer;
+    if (selectedAnswer === Answer) {
+        score += 10;
+        document.getElementById('score').textContent = `Score: ${score}`;
+    } else {
+        alert(`Incorrect! The correct answer was: ${correctAnswer}`);
+    }
+}
+

@@ -39,7 +39,15 @@ Reponsive Wireframes - Website design skeleton to be responsive on all sites.
 
 Main site page is the key page, there should not be any other pages as all navigation should be done through the game. The page changes slightly with each question. \
 Design elements:
-Answer cards are created via Bootstrap cards (in future design we would have these flip over once selected with the result of the answers/correct/incorrect. Instead currently we have a pop up created. A score is added if the correct answer is provided and you receive a bad luck message if you are wrong. 
+Answer cards are created via Bootstrap cards (in future design we would have these flip over once selected with the result of the answers/correct/incorrect. Instead currently we have a pop up created. A score is added if the correct answer is provided and you receive a bad luck message if you are wrong. (Note - this is not currently working).
+
+Things that do currently work - 
+Question next - moves the questions alongf
+Restart - resets the score and question back to first question successfully. 
+Submit - Currently tells you to select a question
+Select Question - button works in that it logs to the console a button as been selected. 
+![image](https://github.com/SubjugatorofCSS/InfoQuest/assets/169777591/d6262f56-c699-4730-819d-06888d9e88c3)
+This needs to be further developed to actually select the answer and be able to submit. Also It should highlight what has been selected but this is not currenty working either. 
 
 Colour Schemes:
 #3F88C5\
@@ -48,12 +56,13 @@ Colour Schemes:
 #DDA448\
 #F25083
 
-Footer - Social links and team details featured at the bottom of the page. Visible on all pages.?
+Footer - Simple signature
 
 ## Future Features
+Get everything working as it should... \
 Interactive/animations for the results answers - cards transition/flip around. \
 API Instead of manually created questions. We started with an API but we could not quite get it to work in the timeframe, so we made a decision to simplify to get a MVP out in the timeframe. \
-Modal pop ups instead of alerts would be a function I would like to add. 
+Modal pop ups instead of alerts would be a function we would like to add. 
 
 ## Testing
 JavaScript testing - Correct Answer =/= correct/incorrect - does this work? Questions cycle through, however it currently does not submit or check answers. This is something we need to complete in the next steps. \

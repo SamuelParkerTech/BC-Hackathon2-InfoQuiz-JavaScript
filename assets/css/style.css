@@ -1,7 +1,7 @@
 
  /* class to body element to override initial styling from html/bootstrap */
 .body {
-    margin: 2rem;
+    margin: 16px 0 16px;
     background-color: #ffffe8; 
 }
 
@@ -42,6 +42,18 @@ h3 {
 } 
 .card-text
 
+
+/* Footer */
+
+.container {
+    margin: 16px;
+    padding: 12px 0 12px;
+}
+.authors {
+    text-align: left;
+    font-size: 1.8rem;
+}
+
 .pointerEvent {
     border: 2px solid #007bff; 
 }
@@ -54,3 +66,4 @@ h3 {
 .selected-card {
     border: 2px solid #007bff; 
 }
+

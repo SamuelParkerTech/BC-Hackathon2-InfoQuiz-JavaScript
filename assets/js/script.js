@@ -121,21 +121,11 @@ function restartsQuiz ()
     displayQuestion();
 }
 
-/* // Event listeners for each answer ID
-document.getElementById("answerA").addEventListener("click", e => selectAnswer(e));
-document.getElementById("answerB").addEventListener("click", e => selectAnswer(e));
-document.getElementById("answerC").addEventListener("click", e => selectAnswer(e));
-document.getElementById("answerD").addEventListener("click", e => selectAnswer(e));
-
-*/
-
 
 function selectAnswer(answer) {
     selectedAnswer = answer;
     console.log('Selected answer:', selectedAnswer);
-
-    // code to highlight selected answer
-
+    // code to highlight selected answer goes here  >>
 }
     
 function submitAnswer() {

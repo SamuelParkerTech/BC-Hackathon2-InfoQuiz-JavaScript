@@ -76,7 +76,7 @@ GitHub for code management\
 Gitpod for coding\
 FontAwesome\
 BootStrap Framework\
-API - JSON\
+API - JSON https://opentdb.com/ (not actually currently using) \ 
 [Am I Responsive?](https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev)
 
 

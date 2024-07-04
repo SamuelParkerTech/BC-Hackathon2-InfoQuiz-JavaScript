@@ -139,13 +139,13 @@ function selectAnswer(answer) {
 }
     
 function submitAnswer() {
-    if (!selectedAnswer) {
+    if (selectAnswer) {
         alert('Please select an answer!');
         return;
     }
 
     const correctAnswer = questions[currentQuestionIndex].answer;
-    if (selectedAnswer === answer) {
+    if (selectedAnswer === correctAnswer) {
         score += 10;
         document.getElementById('score').textContent = `Score: ${score}`;
     } else {

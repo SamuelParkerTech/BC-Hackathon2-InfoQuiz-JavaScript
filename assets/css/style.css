@@ -67,3 +67,19 @@ h3 {
     border: 2px solid #007bff; 
 }
 
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 0em;
+    background-color: #dda448;
+    margin-top: 20px; }
+
+    main {padding-bottom: 150px;}
+
+    @media (max-width: 768px) {
+        footer {
+            position: relative;
+        }
+        main {padding-bottom: 0;}
+    }

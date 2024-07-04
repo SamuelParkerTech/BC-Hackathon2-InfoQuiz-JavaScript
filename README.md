@@ -57,16 +57,15 @@ Modal pop ups instead of alerts would be a function I would like to add.
 
 ## Testing
 JavaScript testing - Correct Answer =/= correct/incorrect - does this work? Questions cycle through, however it currently does not submit or check answers. This is something we need to complete in the next steps. \
-Is the score calculated correctly? Correct answers are not currently recorded so the score does not work either. 
-Are there any page errors?\ No page errors 
+Is the score calculated correctly? Correct answers are not currently recorded so the score does not work either. \
+Are there any page errors? No page errors \
 Is it responsive on all pages? Very responsive on all pages. 
 ![image](https://github.com/SubjugatorofCSS/InfoQuest/assets/169777591/0b867783-456d-4195-b533-168b705e123f)
 
 
 ## Validator Testing
 HTML - Passed No Errors\
-CSS - \
-No errors were found when passing through the official (Jigsaw) validator
+CSS - No errors were found when passing through the official (Jigsaw) validator \
 
 ## Credits
 Authors of the Project\

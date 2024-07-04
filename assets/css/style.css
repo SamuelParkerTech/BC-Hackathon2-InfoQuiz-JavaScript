@@ -1,7 +1,7 @@
 
  /* class to body element to override initial styling from html/bootstrap */
 .body {
-    margin: 2rem;
+    margin: 16px 0 16px;
     background-color: #ffffe8; 
 }
 

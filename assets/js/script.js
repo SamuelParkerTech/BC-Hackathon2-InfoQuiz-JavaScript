@@ -114,6 +114,16 @@ function showNext() {
     }
 }
 
+// Function to reset the quiz
+function restartsQuiz () 
+{   score = 0;
+    currentQuestionIndex = 0;
+    displayQuestion();
+}
+
+
+
+
 function selectAnswer(element, answer) {
     selectedAnswer = answer;
     console.log('Selected answer:', selectedAnswer);
@@ -126,7 +136,7 @@ function submitAnswer() {
     }
 
     const correctAnswer = questions[currentQuestionIndex].answer;
-    if (selectedAnswer === Answer) {
+    if (selectedAnswer === answer) {
         score += 10;
         document.getElementById('score').textContent = `Score: ${score}`;
     } else {

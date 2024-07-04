@@ -1,6 +1,6 @@
 // Event listeners for buttons that restarts the quiz, submits your answer and goes to next question
 document.getElementById("restart-quiz").addEventListener("click", e => restartsQuiz(e));
-document.getElementById("submit-answer").addEventListener("click", e => submitsAnswer(e));
+document.getElementById("submit-answer").addEventListener("click", e => submitAnswer(e));
 document.getElementById("next-question").addEventListener("click", e => showNext(e));
 
 // creating an Array of Questions
@@ -114,11 +114,30 @@ function showNext() {
     }
 }
 
-function selectAnswer(element, answer) {
-    selectedAnswer = answer;
-    console.log('Selected answer:', selectedAnswer);
+// Function to reset the quiz
+function restartsQuiz () 
+{   score = 0;
+    currentQuestionIndex = 0;
+    displayQuestion();
 }
 
+/* // Event listeners for each answer ID
+document.getElementById("answerA").addEventListener("click", e => selectAnswer(e));
+document.getElementById("answerB").addEventListener("click", e => selectAnswer(e));
+document.getElementById("answerC").addEventListener("click", e => selectAnswer(e));
+document.getElementById("answerD").addEventListener("click", e => selectAnswer(e));
+
+*/
+
+
+function selectAnswer(answer) {
+    selectedAnswer = answer;
+    console.log('Selected answer:', selectedAnswer);
+
+    // code to highlight selected answer
+
+}
+    
 function submitAnswer() {
     if (!selectedAnswer) {
         alert('Please select an answer!');
@@ -126,7 +145,7 @@ function submitAnswer() {
     }
 
     const correctAnswer = questions[currentQuestionIndex].answer;
-    if (selectedAnswer === Answer) {
+    if (selectedAnswer === answer) {
         score += 10;
         document.getElementById('score').textContent = `Score: ${score}`;
     } else {

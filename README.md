@@ -78,7 +78,7 @@ CSS - No errors were found when passing through the official (Jigsaw) validator 
 
 ## Credits
 Authors of the Project\
-Aeryzx Rose - Project Lead\
+Aeryx Rose - Project Lead\
 Tanika Irwin\
 Samuel Parker
 
